@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Card']
+
+roboflow:
+  workspace: sustech-hcda5
+  project: door-detect-wjyfs
+  version: 8
+  license: MIT
+  url: https://universe.roboflow.com/sustech-hcda5/door-detect-wjyfs/dataset/8

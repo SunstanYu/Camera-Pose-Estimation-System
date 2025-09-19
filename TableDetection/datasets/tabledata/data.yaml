@@ -1,0 +1,13 @@
+train: E:/Code/YoloProject/TableDetection/datasets/tabledata/train/images
+val: E:/Code/YoloProject/TableDetection/datasets/tabledata/valid/images
+test: E:/Code/YoloProject/TableDetection/datasets/tabledata/test/images
+
+nc: 1
+names: ['table']
+
+roboflow:
+  workspace: robocup2022p2
+  project: table-dsqvh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robocup2022p2/table-dsqvh/dataset/1

@@ -1,0 +1,13 @@
+train: E:/Code/YoloProject/ObjectLocation/chair_data/train2/train/images
+val: E:/Code/YoloProject/ObjectLocation/chair_data/train2/train/images
+test: E:/Code/YoloProject/ObjectLocation/chair_data/train2/train/images
+
+nc: 1
+names: ['chair']
+
+roboflow:
+  workspace: sustech-hcda5
+  project: chair-detection-qnk5l
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sustech-hcda5/chair-detection-qnk5l/dataset/1

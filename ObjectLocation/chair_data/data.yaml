@@ -1,0 +1,13 @@
+train: E:/Code/YoloProject/ObjectLocation/chair_data/train/images
+val: E:/Code/YoloProject/ObjectLocation/chair_data/valid/images
+test: E:/Code/YoloProject/ObjectLocation/chair_data/test/images
+
+nc: 1
+names: ['Chair']
+
+roboflow:
+  workspace: sreejith-3hu4y
+  project: chair200
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sreejith-3hu4y/chair200/dataset/1
